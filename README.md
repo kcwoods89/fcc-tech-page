@@ -1,2 +1,3 @@
 # fcc-tech-page
-Technical page for freecodecamp
+
+Technical page for freecodecamp.
