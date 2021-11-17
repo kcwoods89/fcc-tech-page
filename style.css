@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: "navbar main-doc";
+  grid-gap: 10px;
+}
+
+#navbar {
+  grid-area: navbar;
+  position: fixed;
+}
+
+#main-doc {
+  grid-area: main-doc;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 150px;
+  padding: 10px;
+  border-bottom: 2px black groove;
+}
+
+header {
+  font-size: 1.5em;
+}
